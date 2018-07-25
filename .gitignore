@@ -1,6 +1,6 @@
 # Exclude folder
 
-node-modules/
+node_modules/
 .next/
 .vscode/
 
