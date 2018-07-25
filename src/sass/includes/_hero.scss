@@ -1,0 +1,31 @@
+.heroku {
+  /*background-color: #f9f2db;*/
+  background-size: 100% auto;
+
+  .heroku__content {
+    width: 1000px;
+    max-width: 100%;
+    text-align: left;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    margin: 0px auto;
+    h2 {
+      font-size:3.7em;
+      font-weight: 400;
+      width:600px;
+      font-style: italic;
+      line-height: 1.2;
+      margin-bottom:10px;
+    }
+    h4 {
+      width:600px;
+      font-size:1.7em;
+      margin-top:10px;
+      color:$color-link;
+      text-shadow: 0px 1px 4px rgba(0,0,0,0.222);
+    }
+  }
+}

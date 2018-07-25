@@ -1,0 +1,45 @@
+.header {
+  width: 100%;
+  z-index:1000;
+  &.scrolled {
+
+  }
+  .header__content {
+    width: 1000px;
+    max-width: 100%;
+    height: 92px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    margin: 0px auto;
+  }
+  nav {
+    position: absolute;
+    left:40%;
+    span {
+      a {
+        display:inline-block;
+        margin-right:16px;
+        text-decoration: none;
+        color:$color-link;
+      }
+    }
+  }
+  .header__right {
+    a {
+      display: inline-block;
+      margin-right: 6px;
+      img {
+        opacity:0.3;
+      }
+      &:hover {
+        img {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
