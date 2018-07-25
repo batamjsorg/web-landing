@@ -1,0 +1,10 @@
+# Exclude folder
+
+node-modules/
+.next/
+.vscode/
+
+# Exclude files
+
+package-lock.json
+*.
