@@ -1,0 +1,20 @@
+
+.footer {                
+    background: #FAF1DB; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, #F68B55 , #FAF1DB); /* Standard syntax (must be last) */            
+    color:$black-color;
+    height: 65px;
+    margin-top: 400px;
+
+    .footer__content  {
+        width: 1000px;        
+        max-width: 100%;        
+        margin: 0px auto;
+        padding-top: 10px;
+    }
+
+    p {    
+      font-size:1.0em;                
+      line-height: 1.5;            
+    }
+}

@@ -1,5 +1,5 @@
 import Link from 'next/link'
-
+import Footer from './footer';
 const Menu = ({href, label}) => (
   <span>
     <Link href={href}><a>{label}</a></Link>
@@ -12,6 +12,7 @@ const Menu = ({href, label}) => (
 )
 
 export default ({children}) => (
+  
   <div>
     <header>
       <div className="header scrolled">
@@ -43,10 +44,15 @@ export default ({children}) => (
       </div>
     </header> 
     <main>
-      <div>
+      <div>        
         {children}
-      </div>
+      </div>      
     </main>
+
+    <footer className="footer">
+          <Footer />
+    </footer>
+
     <style global jsx>{`
       body {
         background-image:url('../static/bg-heroku-trans.png');
